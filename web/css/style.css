@@ -381,10 +381,11 @@ header {
 .taskBox {
   border-radius: 30px;
   padding: 20px;
-  box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
   width: fit-content;
   block-size: fit-content;
   max-width: 1000px;
+  margin-bottom: 10px;
 }
 
 .pointMenu {

@@ -518,7 +518,7 @@ header {
 .mediaBox {
   border-radius: 30px;
   padding: 20px;
-  box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
   width: fit-content;
   block-size: fit-content;
   max-width: 1000px;
@@ -531,16 +531,21 @@ header {
 }
 
 .mediaText ul li {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
   list-style: decimal;
+}
+
+.mediaImg {
+  justify-content: center;
+  display: flex;
 }
 
 .mediaText p {
   text-indent: 70px;
   text-align: justify;
   line-height: 2rem;
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .mediaText ul ul li {
@@ -575,10 +580,11 @@ header {
 .teknologiBox {
   border-radius: 30px;
   padding: 20px;
-  box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
   width: fit-content;
   block-size: fit-content;
   max-width: 1000px;
+  padding-bottom: 4rem;
 }
 
 .teknologiTitle,
@@ -591,24 +597,23 @@ header {
   text-indent: 70px;
   text-align: justify;
   line-height: 2rem;
-  margin-bottom: 15px;
 }
 
 .teknologiText ol {
   text-align: justify;
   line-height: 2rem;
-  margin-bottom: 35px;
+
 }
 
 .teknologiText li {
   text-align: justify;
   line-height: 2rem;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   list-style: decimal;
 }
 
 .exampleTeknologi img {
-  margin-top: 20px;
+  margin-top: 40px;
   box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
 }
 
@@ -634,7 +639,7 @@ header {
 .glosariumBox {
   border-radius: 30px;
   padding: 20px;
-  box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
   width: fit-content;
   block-size: fit-content;
   max-width: 1000px;
@@ -712,7 +717,7 @@ td {
 .referensiBox {
   border-radius: 30px;
   padding: 20px;
-  box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
   width: fit-content;
   block-size: fit-content;
   width: 1000px;
